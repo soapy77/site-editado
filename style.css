@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+:root
+{
+  font-size: 62.5%; /* 1rem= 10px*/
+  
+}
+body {
+  font-family: "Dm Sans";
+  font-size: 1.6rem;
+  text-align: center;
+}
+.warpper {
+  width: 37.5;
+ margin-inline: auto;
+}
+header: ::before {
+display: block;
+content '';
+width: 100vw;
+height: 108rem;
+display: block;
+
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+header h1 {
+  font-size: 3.4rem;
+  line-height: 130%;
+  color: rgba(0, 0, 0, 0.829);
+
+}
+header h3 {
+font-size: 2.1rem;
+}
+header h4 {
+  font-size: 2.1rem;
+}
+header p {
+  font-size: 2.0rem;
+  color: blueviolet;
+  line-height: 150%;
+  font-weight: 400%;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 1.6rem 2.4rem;
+  
+  position: fixed;
+  top: 0;
+  right: ;: 50%;
+font-size: 2.5rem
+
+}
+nav.warpper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav.scroll{
+  background-color: blueviolet;
+  width: 100vw;
+  font-size: 1.4rem;
+}
+  .stats {
+    width: 32.7;
+    height: 47rem;
+    margin-inline: auto;
+    background-color: black;
+  }
